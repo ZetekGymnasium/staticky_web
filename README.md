@@ -1,1 +1,0 @@
-# staticky_web

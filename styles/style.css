@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Medium.ttf");
+    font-weight: bold;
+}
+
+body {
+    font-family: "Roboto";
+    background-color: #e8f0f8;
+}
+
+header, footer {
+    background-color: #0168f4;
+    color: whitesmoke;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+.down-footer {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 100%;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+header a img {
+    height: 50px;
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+.upoutavka {
+    background-image: url("/img/silnice_1.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: scroll;
+    background-size: 100% auto;
+    background-origin: content-box;
+    background-clip: content-box;
+    height: 30vh;
+}
+
+.upoutavka-text {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: relative;
+}
+
+.upoutavka h1 {
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.upoutavka p {
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.upoutavka a {
+    color: whitesmoke;
+}
+
+.udrzitelnost-frame {
+    height: 30vh;
+}
+
+.udrzitelnost {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.udrzitelnost h1 {
+    text-align: center;
+}
+
+.udrzitelnost p {
+    text-align: center;
+}
+
+.nase-projekty {
+    text-align: center;
+}
+
+.nase-projekty h1 {
+    font-size: 50px;
+}
+
+.obrazky-silnice {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.obrazky-silnice img {
+    flex: 1;
+    margin-right: 50px;
+    max-width: 30vw;
+    max-height: 30vw;
+}
+
+th {
+    font-weight: normal;
+}
+
+.recenze-seznam {
+    list-style-type: none;
+}
+
+.recenze {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.recenze img {
+    height: 15vh;
+    width: auto;
+    border-radius: 15px;
+}
+
+.recenze-photo {
+    flex: 1;
+}
+
+.recenze-photo p {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.text-recenze p {
+    flex: 6;
+    font-size: 25px;
+}
+
+.recenze-upoutavka {
+    text-align: center;
+}
+
+.recenze-upoutavka a {
+    color: black;
+}
+
+.kratke-slovo {
+    text-align: center;
+}
