@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Roboto";
-    src: url("/fonts/Roboto-Regular.ttf");
+    src: url("../fonts/Roboto-Regular.ttf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url("/fonts/Roboto-Medium.ttf");
+    src: url("../fonts/Roboto-Medium.ttf");
     font-weight: bold;
 }
 
@@ -49,7 +49,7 @@ footer a {
 }
 
 .upoutavka {
-    background-image: url("/img/silnice_1.jpg");
+    background-image: url("../img/silnice_1.jpg");
     background-repeat: no-repeat;
     background-position: bottom center;
     background-attachment: scroll;
